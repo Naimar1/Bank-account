@@ -6,3 +6,9 @@
     margin-left: auto;
     
   }
+  .jumbotron h1{
+    background-color: darkcyan;
+    color: azure;
+    text-align: center;
+    font-family: sans-serif;
+}
