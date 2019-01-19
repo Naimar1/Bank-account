@@ -14,12 +14,12 @@ This project is about create new bank account, after creating new account you sh
 ## Known Bugs
 If you find an error please contact me for the below address.
 ## Technologies Used
- html 
- css 
- js 
- bootstrap 
- jQuery 
- and md languages
+ * html 
+ * css 
+ * js 
+ * bootstrap 
+ * jQuery 
+ * md languages
 ## Support and contact details
 Don't hesitate to contact me if you get a confusion or any other question,suggestion etc
 * Tel: 0788358969
