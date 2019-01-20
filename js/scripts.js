@@ -15,9 +15,9 @@
 //})
 
 
-
+// User interface logic
 $(document).ready(function() {
-    $('form').submit(function(event) {
+    $('button#checkBalance').click(function(event) {
         event.preventDefault();
  
 var namedepose=$("#fname").val();
@@ -46,3 +46,19 @@ $("button#withdmoney2").click(function(){
 });
 });
  });
+
+ //Business logic
+
+function Client(first, last,country,phone,email,password,branchcnt) {
+    this.firstName = first;
+    this.lastName = last;
+    this.yourCount =country;
+    this.foneNumber =phone;
+    this.mailAddrse =email;
+    this.loginPass =password;
+    this.branchAcount =branchcnt;
+  }
+  Client.prototype.fullInfos = function(){
+      return this.firstName + " " + this.lastName + " " + this.yourCount + " " + this.foneNumber + " " + this.mailAddrse + " " + this.loginPass + " " + this.branchAcount;
+        
+  }
