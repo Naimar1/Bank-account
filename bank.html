@@ -9,7 +9,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container1">
+    <div class="container">
       <div class="jumbotron">
          <div class="well">
             <h1>Bank statement</h1>
@@ -20,15 +20,18 @@
                   <div id="checkBalance"></div>
                    <h3> New Account</h3>
                       Account N0
-                        <input type="text" name="name" required>
+                        <h1 class="title" id="first"></h1>
+                        <input type="text" name="name" required><br><br>
                       Initial Amount
-                        <input type="number" name="number1" class="moneyb" required>
+                        <h1 class="title" id="second"></h1>
+                        <input type="number" name="number1" id="initmount" required>
                    <h3>Deposit or Withdraw Funds</h3>
                       Deposit 
                          <input type="number" name="number2" id="depmoney1">
-                         <button type="button" name="number" id="depmoney2">New Balance</button>
+                         <button type="button" name="number" id="depmoney2">New Balance</button><br><br>
                       Withdraw
-                         <input type="number" name="number3"><br><br>
+                         <input type="number" name="number3" id="withdmoney1">
+                         <button type="button" name="number" id="withdmoney2">New Balance</button><br><br>
                          <input type="submit" class="btn btn-danger" value="Submit">
                 </form>
             </div>
