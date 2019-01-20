@@ -1,21 +1,5 @@
-//$(document).ready(function(){
-    //$("#checkBalance").on("click", function() {
-      //  var initBalance = 
-      //  parseInt($("#checkBalance").html()).replace("frw","")
-      //  console.log("This is the checking balance. " + typeof initBalance )
-
-       // var deposit = parseInt($("checkAmount")).val()
-       // console.log("This is the deposit: "+ deposit)
-
-       // var total = deposit + initBalance 
-       // console.log("This is the total: " + total)
-
-       // $("#checkingBalance").html("frw" + total)
-  //  })
-//})
-
-
 // User interface logic
+
 $(document).ready(function() {
     $('button#checkBalance').click(function(event) {
         event.preventDefault();
@@ -43,8 +27,8 @@ $("button#withdmoney2").click(function(){
     $('#second').text(capital);
 
 
-});
-});
+     });
+   });
  });
 
  //Business logic
