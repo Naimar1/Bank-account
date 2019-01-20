@@ -1,5 +1,5 @@
 # Bank Account
-#### This is a Quiz board , 19/1/2019
+#### 19/1/2019
 ## Author
 #### **Naima Niyigena**
 ## Description
